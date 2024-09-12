@@ -50,7 +50,7 @@ export default function Login() {
                 onChange={ handleChange }/>
             </div>
             <div className="flex flex-col space-y-1.5">
-              <Label htmlFor="password">Contraseña</Label>
+              <Label htmlFor="password">Password</Label>
               <Input id="password"
                 name='password'
                 placeholder="Ingrese su contraseña" 
